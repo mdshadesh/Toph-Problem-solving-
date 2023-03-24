@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+typedef long long ll;
+ 
+const int N=100009;
+
+int main()
+{
+    ll k,a,b;
+    cin >> k >> a >> b; 
+
+    if(a+b >= k) cout << "YES\n";
+    else cout << "NO\n";
+    return 0;
+}
